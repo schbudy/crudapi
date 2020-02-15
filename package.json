@@ -1,0 +1,33 @@
+{
+  "name": "crudapi",
+  "version": "1.0.0",
+  "description": "simple api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schbudy/crudapi.git"
+  },
+  "author": "schbudy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schbudy/crudapi/issues"
+  },
+  "homepage": "https://github.com/schbudy/crudapi#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.2",
+    "sequelize": "^5.21.4",
+    "sequelize-cli": "^5.5.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4"
+  }
+}
